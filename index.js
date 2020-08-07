@@ -14,4 +14,4 @@ element.appendChild(ul)
 
 element.style.backgroundColor = '#27647B';
 element.style.textAlign = 'center';
-ul.style.textAlign = 'left'
+ul.style.textAlign = 'left';
