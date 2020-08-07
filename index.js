@@ -20,4 +20,4 @@ element.className = 'dog'
 element.className = 'pet-listing dog'
 
 ul.removeChild(ul.querySelector('li:nth-child(2)'))
-ul.remove(;)
+ul.remove();
