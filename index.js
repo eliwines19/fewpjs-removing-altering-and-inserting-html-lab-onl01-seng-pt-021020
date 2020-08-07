@@ -23,3 +23,5 @@ ul.removeChild(ul.querySelector('li:nth-child(2)'))
 ul.remove();
 
 main.remove();
+
+let newHeader = document.createElement('h1')
