@@ -13,3 +13,5 @@ for (let i = 0; i < 3; i++) {
 element.appendChild(ul)
 
 element.style.backgroundColor = '#27647B';
+element.style.textAlign = 'center';
+ul.style.textAlign = 'left'
