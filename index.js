@@ -1,6 +1,4 @@
 // Write your code here!
-let element = document.createElement('div')
-document.body.appendChild(element)
 
 let ul = document.createElement('ul')
 
@@ -10,21 +8,10 @@ for (let i = 0; i < 3; i++) {
   ul.appendChild(li)
 }
 
-element.appendChild(ul)
-
-element.style.backgroundColor = '#27647B';
-element.style.textAlign = 'center';
-ul.style.textAlign = 'left';
-
-element.className = 'dog'
-element.className = 'pet-listing dog'
-
-ul.removeChild(ul.querySelector('li:nth-child(2)'))
-ul.remove();
-
 main.remove();
 
 let newHeader = document.createElement('h1');
 document.body.appendChild(newHeader);
 
 newHeader.setAttribute("id", "victory");
+newHeader.innerHTML = ''
